@@ -12,8 +12,8 @@ export function ModalTarefa({ onClose, onAdd }: ModalTarefaProps) {
     e.preventDefault();
     if (titulo.trim()) {
       onAdd(titulo.trim());
-      setTitulo(""); // limpa o campo
-      onClose();     // fecha o modal
+      setTitulo(""); 
+      onClose();     
     }
   };
 
