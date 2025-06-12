@@ -28,8 +28,9 @@ export function ModalTarefa({ onClose, onAdd }: ModalTarefaProps) {
             value={titulo}
             onChange={(e) => setTitulo(e.target.value)}
             placeholder="Digite o título da tarefa"
-            className="w-full border border-gray-300 p-2 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
+            className="w-full border border-gray-300 p-2 rounded mb-4 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+/>
+
 
           <div className="flex justify-end gap-2">
             <button
