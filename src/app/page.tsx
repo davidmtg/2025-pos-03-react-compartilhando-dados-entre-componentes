@@ -28,7 +28,7 @@ export default function Home() {
 	const alternarConclusao = (index: number) => {
 		const novas = [...todasTarefas];
 		novas[index].concluido = !novas[index].concluido;
-		setTarefas(novas.slice(dados.length)); // Atualiza apenas as tarefas adicionadas pelo usuário
+		setTarefas(novas.slice(dados.length)); 
 	};
 
 	return (
