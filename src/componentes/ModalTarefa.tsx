@@ -20,7 +20,7 @@ export function ModalTarefa({ onClose, onAdd }: ModalTarefaProps) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-md">
-        <h2 className="text-2xl font-bold mb-4">Adicionar nova tarefa</h2>
+        <h2 className="text-2xl text-black font-bold mb-4">Adicionar nova tarefa</h2>
         
         <form onSubmit={handleSubmit}>
           <input
@@ -28,9 +28,8 @@ export function ModalTarefa({ onClose, onAdd }: ModalTarefaProps) {
             value={titulo}
             onChange={(e) => setTitulo(e.target.value)}
             placeholder="Digite o título da tarefa"
-            className="w-full border border-gray-300 p-2 rounded mb-4 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full text-black border border-gray-300 p-2 rounded mb-4 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
 />
-
 
           <div className="flex justify-end gap-2">
             <button
